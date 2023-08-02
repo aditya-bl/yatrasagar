@@ -1,0 +1,14 @@
+.flexDiv{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#links a{
+    padding-left: 15px;
+    font-weight: 100;
+}
+
+#socials img{
+    padding-left: 20px ;
+}

@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import { Lora } from "next/font/google";
 import Navbar from "@/components/navbar/Navbar";
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
-import Drop from './yatraImages/dropdown.svg';
+import Footer from "@/components/footer/Footer";
 
 import Link from 'next/link';
 const loraBold = Lora({
@@ -176,23 +176,7 @@ const Yatra=()=>{
                 <div></div>
                 <div className={styles.flexRight}></div>
             </div>
-            <div className={styles.flexDiv}>
-                <div></div>
-                <div className={styles.flexRight}></div>
-            </div>
-            <div className={styles.flexDiv}>
-                <div></div>
-                <div className={styles.flexRight}></div>
-            </div>
-            <div className={styles.flexDiv}>
-                <div></div>
-                <div className={styles.flexRight}></div>
-            </div>
-            <div className={styles.flexDiv}>
-                <div></div>
-                <div className={styles.flexRight}></div>
-            </div>
-
+            <Footer/>
         </>
     )
 }
