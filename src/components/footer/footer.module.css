@@ -12,7 +12,12 @@
 #socials img{
     padding-left: 20px ;
 }
+
+#footer h1{
+    font-size: 30px;
+}
 @media (max-width:520px) {
+
     #links{
         width: fit-content;
         text-align: center;
